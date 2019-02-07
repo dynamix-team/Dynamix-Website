@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00596F;
+}
+
+li {
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:white;
+float: left;
+background: linear-gradient(to bottom, blue 50%, red 50%);
+background-size: 100% 200%;
+background-position:top;
+-webkit-transition:all 1s linear;
+transition:all 1s linear;
+}
+
+li a {
+  color:white;
+  text-decoration:none;
+}
+
+li hover {
+background-position:bottom;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a class="active" href="creator.html">Creator</a></li>
+        <li><a href="about.html">About</a></li>
+        <li style="float:right"><a href="account.html">WhiteHoodHacker</a></li>
+    </ul>
+    <footer>
+      <p>Hello!</p>
+    </footer>
+</body>
+</html>

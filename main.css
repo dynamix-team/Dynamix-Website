@@ -1,0 +1,66 @@
+body {
+    font-family:Roboto, Arial;
+    background-color:#FFFFFF;
+    margin:0;
+}
+
+#upper {
+    background-color:#00596F;
+    color:#FFFFFF;
+    margin:0;
+    padding:10px;
+}
+
+#main {
+    background-color:#FFFFFF;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+#navbar {
+    display:inline;
+}
+
+#navbar li {
+    display:inline;
+}
+
+#account {
+    float:right;
+}
+
+ul {
+    padding:0;
+    list-style-type:none;
+}
+
+li {
+    padding:0;
+    list-style-type:none;
+}
+
+li.mainTitle {
+    font-size:130%;
+    font-weight:bold;
+}
+
+li.issuesTitle {
+    font-weight:bold;
+}
+
+#issues {
+    visibility:visible;
+    opacity:1;
+    transition:visibility 3s, opacity 1s;
+}
+
+#hideButton {
+    background-color:#C8C8C8;
+    color:#000000;
+    padding:5px;
+}
+
+footer {
+    font-size:75%;
+    margin-top:20px;
+}
